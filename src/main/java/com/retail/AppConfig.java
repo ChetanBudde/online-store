@@ -16,7 +16,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @ComponentScan(basePackages="com.retail")
 public class AppConfig extends WebMvcConfigurerAdapter{
 	
-	@Bean
+	
 	public static PropertySourcesPlaceholderConfigurer properties() {
 		PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
 		
