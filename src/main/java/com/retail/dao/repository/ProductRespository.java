@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 import com.retail.dao.entity.Product;
 
 @Repository
-public interface ProductRespository extends JpaRepository<Product, Long>, JpaSpecificationExecutor<Product>{
+public interface ProductRespository extends JpaRepository<Product, Long>{
 
 }
